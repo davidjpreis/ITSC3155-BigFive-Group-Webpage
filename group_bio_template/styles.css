@@ -1,23 +1,27 @@
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #03002E;
     margin: 0;
     padding: 0;
 }
 
 /* Header section styling */
 header {
-    background: #333;
+    background: #010048;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    border: 1px solid lightgreen;
 }
 
 /* Styling for team logo image */
 .team-logo {
     width: 150px; /* Adjust the size as needed */
     margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+
 }
 
 /* Menu button styling */
@@ -87,4 +91,72 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+div > img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#vision {
+    color: white;
+}
+
+.moodboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.moodboard img {
+    width: 30px;
+    height: 30px;
+}
+
+.bio1 {
+    font-family: Verdana, sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+
+.bio2 {
+    font-family: Georgia, serif;
+    color: green;
+    font-weight: bold;
+}
+
+.bio3 {
+    font-family: Garamond, serif;
+    color: purple;
+    font-weight: bold;
+}
+
+
+.bio4{
+    font-family: Tahoma, sans-serif;
+    color: red;
+    font-weight: bold;
+}
+
+
+.bio5 {
+    font-family: 'Courier New', monospace;
+    color: orange;
+    font-weight: bold;
+}
+
+.bio1, .bio2, .bio3, .bio4, .bio5 {
+    display: none;
+}
+
+.rlink {
+font-size: 10pt;
+}
+
+.desc {
+    font-size: 9pt;
 }
