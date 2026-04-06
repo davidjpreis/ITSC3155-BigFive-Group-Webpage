@@ -154,9 +154,18 @@ div > img {
 }
 
 .rlink {
-font-size: 10pt;
+    font-size: 10pt;
 }
 
 .desc {
     font-size: 9pt;
 }
+
+.mood-pic {
+
+    margin-left: 20px;
+    margin-right: 30px;
+
+
+}
+
